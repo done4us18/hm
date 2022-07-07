@@ -1,0 +1,45 @@
+1. echo "Hello" : This command is use to print the Hello on terminal. It actualy means that echo is used in bash to print/show the text written b between the quotation mark on the terminal.
+
+
+2. echo "Hello"; echo "World" : Here the main thing is the semicolon puted between two commands in one line, basicaly the use of semicolon in bash is to divide the two or more command written in one line.
+
+
+3. read : This command is used to take the user input on terminal, if we write only read command and hit Enter it leaves blank space for type any word and again when press Enter it will continue to show the prompt. Here it do not save any string/Integer in any variables.
+
+
+4. read name : Here the main thing is name which we will defined as a variable, if user type any thing after using this command it will save in  this variable which is name. To show what input is sended to the this variable is we need to execute another command.
+
+
+5. echo "$name" : Here the main thing is $name, through this command whatever input is given by the user stored in name variable will show.
+
+
+
+Let's see some examples :
+
+$ echo "What is Your name?"; read name : This command print firstly What is your name? and the leave next line for user input and that input is stored in name variable which will be visible by executing this command echo "$name".
+
+
+$ echo "$name" : This command shows the above taken input.
+
+
+
+Now try this commands to your self and Observe carefully :
+
+$ echo "What is your name?"; read name; echo "Hello $name"; echo " "; echo "Press Enter to continue..."; read
+
+
+
+
+6. read -p "What is your name? " ; echo $REPLY : Here $REPLY is use to print/show the input given by user without defining any variable because  by default $REPLY is the variable which catches the user input.
+
+
+7. echo -n "Hello "; echo "World" : In this command on thing is to notice that there is -n, which mean NO NEW LINES in bash.
+
+
+8. echo -n "Hello "; echo -n "World" : Here if we put -n, after both echo command then the output will print just before the prompt. Because -n  means NO NEW LINE that's why the output will print just before the prompt.
+
+
+9. echo -e "What is your name\nMy name is Rohit" : Basically in this command there two new thing the first thing is -e, which enable interpretation of backslash escapes in bash, and the second the thing is \n which is use to print the sentence or words which comes after \n in NEW LINE in bash.
+
+
+10. echo * : this command is the alternative command of ls.

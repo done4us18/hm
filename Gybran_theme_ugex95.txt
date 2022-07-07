@@ -1,0 +1,18 @@
+
+
+-------------------------
+ Neofecth Theme 
+-------------------------
+
+ $ pkg install python
+ $ pkg install git
+ $ pip install requests
+ $ git clone https://github.com/Din-zUgex95/neo_theme_termux
+ $ cd neo_theme_termux
+ $ pyhton run.py
+
+-------------------------
+PASWORD : hihi
+---------------------------
+ - youtube: Gybran21
+   Subscribe My Youtube Channel !!!
